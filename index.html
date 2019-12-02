@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>TOMMY COCO</title>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div id="logo"></div>
+            <label for="drop" class="toggle">MENU</label>
+            <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li>
+                    <label for="drop-1" class="toggle" id="drop">COLLECTIONS</label>
+                    <a href="#">COLLECTIONS</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="#">Shkertik</a></li>
+                        <li><a href="#">Cool Brand</a></li>
+                        <li><a href="#">Another Very Cool Brand</a></li>
+                        <li><a href="#">Hipster Brand</a></li>
+                    </ul> 
+                </li>
+                <li><a href="#">OUR STORY</a></li>
+                <li><a href="#">INSPIRATION</a></li>
+                <li><a href="#">GET IN TOUCH</a></li>
+                <li class="menuIcons" id="search"><a href="#"></a></li>
+                <li class="menuIcons" id="user"><a href="#"></a></li>
+                <li class="menuIcons" id="shop"><a href="#"></a></li>
+            </ul>
+        </nav>
+        <div class="firstGall">
+            <div id="first" class="img" first></div>
+            <div id="second" class="img" second></div>
+            <div id="third" class="img" third></div>
+            <div id="scroll">
+                <span>SCROLL</span>
+                <div id="arrowDown"></div>
+            </div>
+
+        </div>
+        <h1>JUST IN</h1>
+        <div class="slider">
+            <div class="sliderContent">
+                <div class="showSlides clearfix"> 
+                    <div class="product"><img src="./images/product.png">
+                        <span class="brandName">SHKERTIK</span><br>
+                        <span class="itemName">Bravo 3rd</span><br>
+                        <span class="price">€33,00</span>
+                    </div>
+                    <div class="product"><img src="./images/product.png">
+                        <span class="brandName">BRAND NAME</span><br>
+                        <span class="itemName">Long item name</span><br>
+                        <span id="discountPrice" class="price">€33,00</span>
+                        <span id="oldPrice" class="price">€44,00</span>
+                    </div>
+                    <div class="product"><img src="./images/product.png">
+                        <span class="brandName">BRAND NAME</span><br>
+                        <span class="itemName">Long item name and even longer</span><br>
+                        <span class="price">€33,00</span>
+                    </div>
+                    <div class="product"><img src="./images/product.png">
+                        <span class="brandName">BRAND NAME1</span><br>
+                        <span class="itemName">Dum dum</span><br>
+                        <span class="price">€33,00</span>
+                    </div>
+                    <div class="product"><img src="./images/product.png">
+                        <span class="brandName">BRAND NAME2</span><br>
+                        <span class="itemName">Lorem Ipsum</span><br>
+                        <span class="price">€33,00</span>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="arrowleft" id="prev"></div>
+            <div class="arrowright" id="next"></div>
+        </div>
+        <hr/>
+        <h1>MOST POPULAR</h1>
+        <div class="slider">
+            <div class="sliderContent" id="popular">
+                <div class="showSlides1 clearfix"> 
+                    <div class="product1"><img src="./images/product.png">
+                        <span class="brandName">SHKERTIK</span><br>
+                        <span class="itemName1">Bravo 3rd</span><br>
+                        <span class="price">€33,00</span>
+                    </div>
+                    <div class="product1"><img src="./images/product.png">
+                        <span class="brandName">BRAND NAME</span><br>
+                        <span class="itemName1">Long item name</span><br>
+                        <span id="discountPrice" class="price">€33,00</span>
+                        <span id="oldPrice" class="price">€44,00</span>
+                    </div>
+                    <div class="product1"><img src="./images/product.png">
+                        <span class="brandName">BRAND NAME</span><br>
+                        <span class="itemName1">Long item name and even longer</span><br>
+                        <span class="price">€33,00</span>
+                    </div>
+                    <div class="product1"><img src="./images/product.png">
+                        <span class="brandName">BRAND NAME1</span><br>
+                        <span class="itemName1">Dum dum</span><br>
+                        <span class="price">€33,00</span>
+                    </div>
+                    <div class="product1"><img src="./images/product.png">
+                        <span class="brandName">BRAND NAME2</span><br>
+                        <span class="itemName1">Lorem Ipsum</span><br>
+                        <span class="price">€33,00</span>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="arrowleft" id="prev1"></div>
+            <div class="arrowright" id="next2"></div>
+        </div>
+        <div id="gallery">
+            <h1 id="inspH">INSPIRATION</h1>
+            <div class="photos">
+                <div class="pic" id="g1"><div class="igLogo"></div></div>
+                <div class="pic" id="g2"><div class="igLogo"></div></div>
+                <div class="pic" id="g3"><div class="igLogo"></div></div>
+                <div class="pic" id="g4"><div class="igLogo"></div></div>
+                <div class="pic" id="g5"><div class="igLogo"></div></div>
+                <div class="pic" id="g6"><div class="igLogo"></div></div>
+                <div class="pic" id="g7"><div class="igLogo"></div></div>
+                <div class="pic" id="g8"><div class="igLogo"></div></div>
+            </div>
+        </div>
+        <div id="sign">
+            <h2>Sign up to get special offers and latest news</h2><br><h2>from Tommy Coco</h2>
+            <div id="form">
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label id="name">Your Email here</label>
+                </div>
+                <button id="signBTN">KEEP ME UPDATED</button>
+
+            </div>
+        </div>
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <span class="footer-links">Collections</span>
+                <p class="footer-links">Our Story</p>
+                <p class="footer-links">Inspiration</p>
+                <p class="footer-links">Get in touch</p>
+            </div>
+            <div class="footer-left">
+                <span class="footer-links">Privacy policy</span>
+                <p class="footer-links">Refund policy</p>
+                <p class="footer-links">Shipping policy</p>
+                <p class="footer-links">Terms of service</p>
+            </div>
+            <div class="footer-right">
+                <span class="pay">
+                    SECURE PAYMENT VIA</span>
+                <div class="footer-icons">
+                    <div id="f1"></div>
+                    <div id="f2"></div>
+                    <div id="f3"></div>
+                    <div id="f4"></div>
+                    <div id="f5"></div>
+                </div>
+            </div>
+            <hr id="hrfoo"/>
+            <div id="lastLine">
+                <div class="line" id="join">
+                    <span>Join us on</span>
+                    <div class="fooIcon" id="fb"></div> 
+                    <div class="fooIcon" id="ig"></div> 
+                </div>
+                <div class="line" >
+                    <span>© 2017, Oceans Supply | Powered by Shopify</span>
+                </div>         
+            </div>
+        </footer>
+        
+</body>
+<script src="script.js"></script>
+</html>
